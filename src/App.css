@@ -1,0 +1,186 @@
+/* Developed by Jitendra Sharma */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #59b6f0;
+	background-image: url('download (2).jpeg');
+}
+  
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('download (2).jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #76e026;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+
+.app-name {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #45e828;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+  
+
+.search-bar {
+    margin-bottom: 20px;
+}
+  
+.city-search {
+    padding: 15px;
+    font-size: 1.2rem;
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(59, 220, 226, 0.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+  
+.city-search::placeholder {
+    color: #aaa;
+}
+  
+.city-search:focus {
+    background-color: #fff; 
+}
+  
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(207, 41, 168, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+  
+.city-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #33e06f;
+}
+  
+.date {
+    font-size: 2rem;
+    color: #d734d2;
+}
+  
+.local-time {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #53ef24;
+}
+  
+.icon-temp {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #dc1313;
+}
+  
+.icon-temp img {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(62, 5, 5, 0.2);
+}
+  
+.deg {
+    font-size: 2rem;
+    vertical-align: super;
+}
+  
+.des-wind {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #041123;
+	font-style: unset;
+}
+  
+
+.country-flag {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.country-flag img {
+    width: 64px;
+    height: 48px;
+    margin-right: 10px;
+	align-items: center;
+}
+  
+
+.satellite-image {
+    margin-top: 20px;
+}
+  
+.satellite-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.error-message {
+    color: #d32f2f;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+  
+.Loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+  
+.Loader > div {
+    margin: 0 auto;
+}
+  
+.button {
+    padding: 12px 24px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.button:hover {
+    background-color: #218838;
+}
+.jitendra{
+	color: #080707;
+    font-size: 1.2rem;
+    margin-top: 10px;
+
+}
